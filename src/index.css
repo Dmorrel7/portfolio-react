@@ -12,6 +12,8 @@ code {
     monospace;
 }
 
+
+/* NAV */
 li{
   list-style: none;
 }
@@ -37,4 +39,17 @@ li{
 .header-nav a{
   color: white
 }
+
+/* About Me */
+
+section{
+  margin-top: 25px;
+}
+
+.aboutSection{
+  display: flex;
+  justify-content: space-between;
+}
+
+
 
