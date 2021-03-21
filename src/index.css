@@ -47,9 +47,28 @@ section{
 }
 
 .aboutSection{
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
 }
 
+.title{
+  text-align: center;
+}
 
+.title h1{
+  margin: auto;
+}
 
+/* footer */
+.footer{
+  background-color: blue;
+  border-top: 2px solid #43FFF4;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer img {
+  padding: 10px;
+} 
