@@ -1,21 +1,33 @@
-import React from 'react';
+import React from "react";
 
-function Nav() {
-    return (
-        <header className="flex-row header-nav">
-            <h2>
-                <a href="/">Dalton Morrel</a>
-            </h2>
-            <nav>
-                <ul className="flex-row">
-                    <li>About Me</li>
-                    <li>Projects</li>
-                    <li>Contact Me</li>
-                    <li>Resume</li>
+
+function Nav(props) {
+  const {section, sectionSelected, setSectionSelected} = props;
+
+
+
+  return (
+    <header className="flex-row px-1 header-nav">
+      <h2>
+        <a data-testid="link" href="/">
+          Dalton Morrel
+        </a>
+      </h2>
+      <nav>
+        <ul className="flex-row header-nav">
+        {section.map((sec) => (
+                        <li className={`${sec === sectionSelected && 'navActive'}`}>
+                            <span onClick={() => {
+                                setSectionSelected(sec)
+                            }}>
+                                {sec}
+                            </span>
+                        </li>
+                    ))}
                 </ul>
             </nav>
-        </header>
-    )
+    </header>
+  );
 }
 
 export default Nav;

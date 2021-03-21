@@ -1,6 +1,6 @@
 import React from 'react';
-import LinkedIn from '../../assets/images/iconmonstr-linkedin-3.svg';
-import Github from '../../assets/images/iconmonstr-github-1.svg';
+import LinkedIn from '../../assets/svg/iconmonstr-linkedin-3.svg';
+import Github from '../../assets/svg/iconmonstr-github-1.svg';
 function Footer() {
     return(
         <footer className="footer">
