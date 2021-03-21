@@ -59,6 +59,22 @@ section{
   margin: auto;
 }
 
+/* Projects */
+
+.project-imgs{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center;
+}
+
+.project-imgs img{
+  width: 45%;
+  height: 45%;
+  padding: 20px;
+  transition: .5s ease;
+}
+
 /* footer */
 .footer{
   background-color: blue;
