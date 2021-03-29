@@ -40,39 +40,26 @@ li{
   color: white
 }
 
-/* About Me */
-
-section{
-  margin-top: 25px;
+.header-nav li:hover{
+  text-decoration: none;
+  color: #e0876a;
 }
 
-.aboutSection{
-  /* display: flex; */
-  justify-content: space-between;
-}
-
-.title{
-  text-align: center;
-}
-
-.title h1{
-  margin: auto;
-}
 
 /* Projects */
 
-.project-imgs{
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px;
-  justify-content: center;
+.project:hover {
+  background-color: #fbefcc;  
+} 
+
+.card-text:hover {
+  text-decoration: none;
+  color: #e0876a;
 }
 
-.project-imgs img{
-  width: 45%;
-  height: 45%;
-  padding: 20px;
-  transition: .5s ease;
+.card-img-top {
+  height: 200px;
+  padding: 10px;
 }
 
 /* footer */
@@ -88,3 +75,9 @@ section{
 .footer img {
   padding: 10px;
 } 
+
+@media (max-width: 544px) {  
+  .about-me {
+    font-size: calc(30% + 1vw + 1vh);
+  }
+}

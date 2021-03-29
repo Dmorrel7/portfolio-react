@@ -13,7 +13,7 @@ function Projects() {
       <div className="row m-4 pt-5">
         <div className="col-3"></div>
         <div className="col-6 text-center mb-3">
-            <h1 className="sub-title">my projects</h1>
+            <h1 className="sub-title">Projects</h1>
         </div>
         <div className="col-3"></div>
       </div>
@@ -21,8 +21,8 @@ function Projects() {
 
         <div className="card-deck">
 
-            <div className="card m-4 project shadow-sm" >
-                <img src={DraftRoom} className="card-img-top rounded" alt="draft-room"/>
+            <div className="card m-4 project hover-overlay shadow-sm"  >
+                <img src={DraftRoom} className="card-img-top rounded" alt="draft-room" />
                 <div className="card-body">
                     <p className="card-text"><a className="card-text" href={"https://sleepy-island-61088.herokuapp.com/"}>Draft Room</a>
                     </p>
@@ -40,7 +40,7 @@ function Projects() {
             <div className="card m-4 project shadow-sm">
                 <img src={PizzaHunt} className="card-img-top rounded" alt="pizza-hunt"/>
                 <div className="card-body">
-                    <p className="card-text"><a className="card-text" href={"https://gabrielazalta.github.io/run-buddy/"}>Run Buddy</a>
+                    <p className="card-text"><a className="card-text" href={"https://blooming-meadow-09050.herokuapp.com/"}>Pizza Hunt</a>
                     </p>
                 </div>
             </div>
@@ -51,7 +51,7 @@ function Projects() {
             <div className="card m-4 project shadow-sm">
                 <img src={BudgetTracker} className="card-img-top rounded" alt="budget-tracker"/>
                 <div className="card-body">
-                    <p className="card-text"><a className="card-text" href={"https://fathomless-crag-37156.herokuapp.com/"}>DraftRoom Beer Blog</a>
+                    <p className="card-text"><a className="card-text" href={"https://fathomless-crag-37156.herokuapp.com/"}>Budget Tracker</a>
                     </p>
                 </div>
             </div>
@@ -59,15 +59,15 @@ function Projects() {
             <div className="card m-4 project shadow-sm">
                 <img src={ZooKeepr} className="card-img-top rounded" alt="zoo-keepr"/>
                 <div className="card-body">
-                    <p className="card-text"><a className="card-text" href={"https://shrouded-reaches-69073.herokuapp.com/"}>Weather Dashboard</a>
+                    <p className="card-text"><a className="card-text" href={"https://shrouded-reaches-69073.herokuapp.com/"}>Zoo Keepr</a>
                     </p>
                 </div>
             </div>
 
             <div className="card m-4 project shadow-sm">
-                <img src={TechBlog} className="card-img rounded" alt="tech-blog"/>
+                <img src={TechBlog} className="card-img-top rounded" alt="tech-blog"/>
                 <div className="card-body">
-                    <p className="card-text"><a className="card-text" href={"https://young-dawn-67776.herokuapp.com/"}>Git It Done</a>
+                    <p className="card-text"><a className="card-text" href={"https://young-dawn-67776.herokuapp.com/"}>The Tech Blog</a>
                     </p>
                 </div>
             </div>
