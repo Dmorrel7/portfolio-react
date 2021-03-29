@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.d0d5fce3.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.81b913fe.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.81b913fe.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.fc40bd1d.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.fc40bd1d.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/portfolio-react/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.300796d3.chunk.js": "/portfolio-react/static/js/2.300796d3.chunk.js",
+    "static/js/2.300796d3.chunk.js.map": "/portfolio-react/static/js/2.300796d3.chunk.js.map",
+    "static/js/3.f3d5d9e2.chunk.js": "/portfolio-react/static/js/3.f3d5d9e2.chunk.js",
+    "static/js/3.f3d5d9e2.chunk.js.map": "/portfolio-react/static/js/3.f3d5d9e2.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/portfolio-react/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.d0d5fce3.chunk.css.map": "/portfolio-react/static/css/main.d0d5fce3.chunk.css.map",
+    "static/js/2.300796d3.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.300796d3.chunk.js.LICENSE.txt",
+    "static/media/budget-tracker.1d0128c0.png": "/portfolio-react/static/media/budget-tracker.1d0128c0.png",
+    "static/media/dalton-morrel.dee092ea.jpeg": "/portfolio-react/static/media/dalton-morrel.dee092ea.jpeg",
+    "static/media/draft-room.cbfe7492.png": "/portfolio-react/static/media/draft-room.cbfe7492.png",
+    "static/media/iconmonstr-github-1.04be58c1.svg": "/portfolio-react/static/media/iconmonstr-github-1.04be58c1.svg",
+    "static/media/iconmonstr-linkedin-3.27a3f479.svg": "/portfolio-react/static/media/iconmonstr-linkedin-3.27a3f479.svg",
+    "static/media/movie-hunt (2).24e94c8a.png": "/portfolio-react/static/media/movie-hunt (2).24e94c8a.png",
+    "static/media/pizza-hunt.ae65a197.png": "/portfolio-react/static/media/pizza-hunt.ae65a197.png",
+    "static/media/tech-blog.c5af3484.png": "/portfolio-react/static/media/tech-blog.c5af3484.png",
+    "static/media/zoo-keepr.696b443b.png": "/portfolio-react/static/media/zoo-keepr.696b443b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc40bd1d.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.300796d3.chunk.js",
+    "static/css/main.d0d5fce3.chunk.css",
+    "static/js/main.81b913fe.chunk.js"
+  ]
+}
