@@ -6,6 +6,7 @@ import MovieHunt from "../../assets/projectImg/movie-hunt (2).png";
 import PizzaHunt from "../../assets/projectImg/pizza-hunt.png";
 import TechBlog from "../../assets/projectImg/tech-blog.png";
 import ZooKeepr from "../../assets/projectImg/zoo-keepr.png";
+import Fitter from "../../assets/projectImg/fitter.png";
 
 function Projects() {
   return (
@@ -68,6 +69,14 @@ function Projects() {
                 <img src={TechBlog} className="card-img-top rounded" alt="tech-blog"/>
                 <div className="card-body">
                     <p className="card-text"><a className="card-text" href={"https://young-dawn-67776.herokuapp.com/"}>The Tech Blog</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div className="card m-4 project shadow-sm">
+                <img src={Fitter} className="card-img-top rounded" alt="fitter"/>
+                <div className="card-body">
+                    <p className="card-text"><a className="card-text" href={"https://frozen-ravine-95295.herokuapp.com/"}>The Tech Blog</a>
                     </p>
                 </div>
             </div>
