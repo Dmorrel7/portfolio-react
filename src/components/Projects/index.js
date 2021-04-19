@@ -76,7 +76,7 @@ function Projects() {
             <div className="card m-4 project shadow-sm">
                 <img src={Fitter} className="card-img-top rounded" alt="fitter"/>
                 <div className="card-body">
-                    <p className="card-text"><a className="card-text" href={"https://frozen-ravine-95295.herokuapp.com/"}>The Tech Blog</a>
+                    <p className="card-text"><a className="card-text" href={"https://frozen-ravine-95295.herokuapp.com/"}>Fitter</a>
                     </p>
                 </div>
             </div>
